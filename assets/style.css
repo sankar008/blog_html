@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(63, 57, 47);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.topheader{
+    border-bottom: 2px solid #db4219;
+}
+
+.headermenu div{
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headermenu div a{
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headermenu div a:hover{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: inline-block;
+    color: white;
+    padding: 18px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu ul li a:hover{
+    text-decoration: none;
+}
+
+.menubg{
+    background-color: black;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.leftcontaint{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.leftcontaint::before{
+    content: "";
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #36323261;
+    
+}
+.topnews{
+    margin-top: 20px;
+}
+
+.leftcontainttop{
+    display: inline-block;
+    position: relative;
+}
+
+.leftcontainttop span{
+    border: 1px solid #db4219;
+    border-radius: 10px;
+    padding: 3px 10px;
+    background-color: #db4219;
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+.leftcontaintbutton{
+    padding-top: 12rem;
+    position: relative;
+}
+
+.leftcontaintbutton h2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.leftcontaintbutton p{
+    color: white;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.leftcontaintbutton span{
+    color: white;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.righttopimage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.righttopcontaint h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5rem;
+}
+
+.righttopcontaint span {
+    color: white;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rightbuttomimage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.rightbuttomcontaint h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5rem;
+}
+
+.rightbuttomcontaint span {
+    color: white;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rightcontainttop span{
+    border: 1px solid #db4219;
+    border-radius: 10px;
+    padding: 3px 15px;
+    background-color: #db4219;
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.latestnew{
+    margin: 2rem;
+}
+
+.latestnewtitle{
+    color: white;
+    margin-left: -25px;
+    margin-top: 6px;
+}
