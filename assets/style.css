@@ -214,14 +214,35 @@ li{
 }
 
 .newblog{
-    padding: 0px 0px 100px 0px;
+    /* padding: 0px 0px 100px 0px; */
 }
 
 .newblog img{
     background-size: cover;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 100%;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 
+}
+
+.newblogcart{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.newblogcart p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-top: 1rem;
+    font-size: 15px;
+    padding: 1rem 1rem 0rem 1rem;
+   
+}
+
+.newblogcart span{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 10px;
+    padding-left: 1rem;
 }
